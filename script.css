@@ -22,8 +22,8 @@ function updateAnimation(newSpeed) {
         value2.innerText = getRandomValue()
         value3.innerText = getRandomValue()
 
-    } 1000 / newSpeed);
-    
+    }, 1000 / newSpeed)
+    }
 
 inpSpeed.onchange = function (ev) {
     //document.documentElement => this is "root" of CSS
